@@ -12,6 +12,7 @@ QUESTIONS_FILE = pkg_resources.resource_filename('py_quiz','questions.json')
 def main(args=None):
     app = Application() # creating the object for Application class()
     app.master.title('PyQuiz!')
+    # This has been modified by 221810301039
     app.mainloop()
 
 class Application(tk.Frame):
